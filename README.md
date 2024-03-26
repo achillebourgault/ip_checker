@@ -45,17 +45,6 @@ The primary purpose of this script is to monitor and log changes to the public I
   ./ip_checker.sh -h
   ```
 
-### Examples
-
-- Display the current public IP:
-  ```bash
-  ./ip_checker.sh
-  ```
-- Check for IP changes every 60 seconds:
-  ```bash
-  ./ip_checker.sh -t 60
-  ```
-
 ## Conclusion
 
 This script has been a useful tool for me, especially in maintaining uninterrupted access to my company's VPN while working remotely with a dynamic IP address. I hope it can be equally beneficial for others facing similar situations.
