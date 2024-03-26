@@ -58,7 +58,7 @@ if [[ $time_interval -ne 0 ]]; then
         # Every 30 minutes, display a message
         if [[ $(($(date +%s) % 1800)) -lt $time_interval ]]; then
             echo "$(print_time) Pinging $(hostname) to stay awake.."
-            echo "No IP update\n\n$new_ip\n\n"
+            echo "No IP update | $new_ip"
         fi
 
         # Check if the IP has changed
